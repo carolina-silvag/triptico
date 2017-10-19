@@ -1,0 +1,51 @@
+.contenedor{
+  border: 1px solid black;
+  width: 700px;
+  height: 600px;
+}
+
+.superior{
+  background-color: #fcc230;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.cont1{
+  border: 1px solid black;
+  text-align: justify;
+  padding: 10px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.cont2{
+  border: 1px solid black;
+  text-align: justify;
+  padding: 10px;
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+
+.cont3{
+  border: 1px solid black;
+  text-align: justify;
+  padding: 10px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.inferior{
+  background-color: #fcc230;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  float: inherit;
+}
+
+img{
+  width: 150px;
+}
