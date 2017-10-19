@@ -3,24 +3,35 @@
   width: 700px;
   height: 600px;
 }
+/*El contenedor hay que cambiarlo para utilizar float como se pide.
+}*/
+/*.contenedor{
+  overflow: hidden;
+}*/
 
+/*aca tmbn se le agrega overflow*/
 .superior{
+  /*overflow: hidden;*/
   background-color: #fcc230;
   border: 1px solid black;
   width: 100%;
   text-align: center;
 }
 
+/*aca tmbn se le agrega overflow*/
 .cont1{
+  /*overflow: hidden;*/
   border: 1px solid black;
   text-align: justify;
   padding: 10px;
   float: left;
-  width: 20%;
-  height: 100%;
+  width: 20%; /*en este no hay problema puedes dejarlo así o con px*/
+  height: 100%; /*en vez de colocarselo en porcentaje, mejor con px,
+  no sé porque no deja el texto como uno quiere con porcentaje*/
 }
-
+/*aca tmbn se le agrega overflow*/
 .cont2{
+  /*overflow: hidden;*/
   border: 1px solid black;
   text-align: justify;
   padding: 10px;
@@ -28,8 +39,9 @@
   width: 45%;
   height: 100%;
 }
-
+/*aca tmbn se le agrega overflow*/
 .cont3{
+  /*overflow: hidden;*/
   border: 1px solid black;
   text-align: justify;
   padding: 10px;
@@ -39,11 +51,12 @@
 }
 
 .inferior{
+  /*overflow: hidden;*/
   background-color: #fcc230;
   border: 1px solid black;
   width: 100%;
   text-align: center;
-  float: inherit;
+  float: inherit;  /*este no es necesario*/
 }
 
 img{
